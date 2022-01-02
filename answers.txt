@@ -1,0 +1,36 @@
+?- what([a, morning, flight, from, canada, to, an, american, city], F).
+F = ac231
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([an, afternoon, airCanada, flight, from, toronto, to, losAngeles], F).
+F = ac633
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([a, day, international, flight, to, a, city, in, uk], F).
+F = ac998
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([a, morning, domestic, flight, from, toronto, with, any, afternoon, arrival, time], F).
+F = ac888
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([a, unitedAirlines, international, flight, from, a, city, in, canada], F).
+F = ua123
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([any, international, afternoon, flight, between, a, city, in, canada, and, an, american, city], FN).
+FN = ac633
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([a, long, day, international, flight, from, toronto, to, uk, with, any, evening, arrival, time], F).
+F = ac998
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([the, shortest, flight, between, a, canadian, city, and, a, chinese, city], F).
+F = ac802
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([any, afternoon, arrival, time, of, a, day, domestic, flight, to, an, american, city], T).
+T = 1490
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([a, day, departure, time, of, a, domestic, flight, to, miami], T).
+T = 930
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([the, shortest, flight, from, toronto, with, any, morning, departure, time, to, a, canadian, city], F).
+F = ac987
+Yes (0.00s cpu, solution 1, maybe more)
+?- what([the, day, flight, from, edmonton, to, montreal], FN).
+FN = ac562
+Yes (0.00s cpu, solution 1, maybe more)
